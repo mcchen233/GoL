@@ -341,7 +341,7 @@ function App() {
         React.createElement("h3", null, "Notes: "),
         React.createElement("p", null, "1. Recomended Browser: Chrome (more fluent than Safari)"),
         React.createElement("p", null, "2. Right Mouse-click: change the state (alive/dead) of the ceil "),
-        React.createElement("p", null, "3. Zoom: mouse wheel; Pan: drag with mouse rigth down. Note that the max grid size is 60 * 60"),
+        React.createElement("p", null, "3. Zoom: mouse wheel; Pan: drag with mouse left down. Note that the max grid size is 60 * 60"),
         React.createElement("p", null, "4. \"SCM\" pattern will show the letter \"SCM\" after the 3rd generation, and button \"step 1\" is recommeneded to check each change"),
 
       ),
