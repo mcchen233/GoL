@@ -242,7 +242,7 @@ function App() {
   // zoom
   function handleWheel(event) {
     const { left, top } = svgRef.current.getBoundingClientRect();
-    if (event.deltaY > 0) {
+    if (event.deltaY < 0) {
       let dx = event.clientX - (event.clientX - (left + translateX)) * 1.1 - left;
       let dy = event.clientY - (event.clientY - (top + translateY)) * 1.1 - top;
 
